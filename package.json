@@ -1,9 +1,9 @@
 {
-	"name": "snippet-sample",
-	"displayName": "Snippet Sample",
-	"description": "Snippet Sample",
+	"name": "salesforce-package-snippets",
+	"displayName": "Salesforce Package Snippets",
+	"description": "Snippets for the package.xml used to deploy code to Salesforce Orgs.",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "ThalesMachado",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
@@ -13,8 +13,8 @@
 	"contributes": {
 		"snippets": [
 			{
-				"language": "javascript",
-				"path": "./snippets.json"
+				"language": "forcesourcemanifest",
+				"path": "./snippets/manifest.json"
 			}
 		]
 	}

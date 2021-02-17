@@ -1,0 +1,255 @@
+{
+	"Create the <name> tag": {
+		"prefix": "name",
+		"body": [
+			"<name>$1</name>"
+		],
+		"description": "Create the <name></name> tag for the metadata type name."
+	},
+	"Create the <members> tag": {
+		"prefix": "members",
+		"body": [
+			"<members>$1</members>"
+		],
+		"description": "Create the <members></members> tag for the metadata type name."
+	},
+	"Create the <types>  structure": {
+		"prefix": "types",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>$2</name>",
+			"</types>"
+		],
+		"description": "Create the <types>...</types> tag for the metadata type name."
+	},
+	"Create the <package> file structure": {
+		"prefix": "package",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+			"<Package xmlns=\"http://soap.sforce.com/2006/04/metadata\">",
+			"",
+			"\t<types>",
+			"\t\t<members>$1</members>",
+			"\t\t<name>$2</name>",
+			"\t</types>",
+			"",
+			"\t<version>$3</version>",
+			"</Package>"
+		],
+		"description": "Create the <Package> file structure of the XML file."
+	},
+	"<types> tag for CustomObject": {
+		"prefix": ["object", "customobject"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomObject</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ApexClass": {
+		"prefix": ["class","apexclass"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ApexClass</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ApexComponent": {
+		"prefix": ["apexcomponent", "component", "vfcomponent"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ApexComponent</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ApexPage": {
+		"prefix": ["apexpage", "vfpage"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ApexPage</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ApexTrigger": {
+		"prefix": ["apextrigger", "trigger"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ApexTrigger</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for AppMenu": {
+		"prefix": "appmenu",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>AppMenu</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ApprovalProcess": {
+		"prefix": "approvalprocess",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ApprovalProcess</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for AssignmentRules": {
+		"prefix": "assignmentrules",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>AssignmentRules</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for AuraDefinitionBundle": {
+		"prefix": ["auradefinitionbundle", "aura", "lightningcomponent"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>AuraDefinitionBundle</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for BrandingSet": {
+		"prefix": "brandingset",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>BrandingSet</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for ConnectedApp": {
+		"prefix": "connectedapp",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>ConnectedApp</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for CustomApplication": {
+		"prefix": "customapplication",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomApplication</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for CustomLabels": {
+		"prefix": "customlabels",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomLabels</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for CustomNotificationType": {
+		"prefix": "customnotificationtype",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomNotificationType</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	
+	"<types> tag for CustomSite": {
+		"prefix": "customsite",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomSite</name>",
+			"</types>"
+		],
+		"description": ""
+	},	
+	"<types> tag for CustomTab": {
+		"prefix": "customtab",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomTab</name>",
+			"</types>"
+		],
+		"description": ""
+	},	
+	"<types> tag for CustomValue": {
+		"prefix": "customvalue",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>CustomValue</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for Dashboard": {
+		"prefix": "dashboard",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>Dashboard</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for EmailTemplate": {
+		"prefix": "emailtemplate",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>EmailTemplate</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for EntitlementProcess": {
+		"prefix": "entitlementprocess",
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>EntitlementProcess</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	"<types> tag for Flow and Process Builder": {
+		"prefix": ["flow", "pb", "processbuilder"],
+		"body": [
+			"<types>",
+			"\t<members>$1</members>",
+			"\t<name>Flow</name>",
+			"</types>"
+		],
+		"description": ""
+	},
+	
+	
+}
